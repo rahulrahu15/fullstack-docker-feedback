@@ -2,13 +2,7 @@
 
 A fully containerized full-stack feedback application built with Flask (Python) and a frontend (e.g., React or HTML/CSS), deployed on AWS EC2 with automated CI/CD using GitHub Actions.
 
-## 🌐 Live Demo
 
-🔗 [https://rahulfeedback.duckdns.org](https://rahulfeedback.duckdns.org)
-
-> ⚠️ HTTPS coming soon with Let's Encrypt! (Currently HTTP only)
-
----
 
 ## 📦 Tech Stack
 
