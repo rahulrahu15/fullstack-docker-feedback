@@ -75,3 +75,12 @@ docker-compose -d
 docker-compose down
 
 
+**After Termination – If You Want to Rebuild:**
+
+You can:
+-Launch a new EC2 instance
+-SSH into it
+-Clone your GitHub repo
+-Reinstall Docker & Docker Compose
+-Run docker-compose up -d --build
+
