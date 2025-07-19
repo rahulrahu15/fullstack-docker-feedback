@@ -14,7 +14,6 @@ A fully containerized full-stack feedback application built with Flask (Python) 
 | DevOps   | Docker, Docker Compose     |
 | CI/CD    | GitHub Actions             |
 | Hosting  | AWS EC2 (Ubuntu)           |
-| DNS      | DuckDNS (Free Dynamic DNS) |
 
 ---
 
@@ -25,7 +24,6 @@ A fully containerized full-stack feedback application built with Flask (Python) 
 - 🐳 Fully Dockerized setup using `docker-compose`
 - 🔄 CI/CD pipeline with GitHub Actions
 - ☁️ Deployed on AWS EC2
-- 🆓 Free domain via DuckDNS
 
 ---
 
