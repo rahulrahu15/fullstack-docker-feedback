@@ -30,7 +30,7 @@
             const name = document.getElementById('name').value;
             const message = document.getElementById('message').value;
 
-            const response = await fetch('/api/feedback', {
+            const response = await fetch('http://3.110.90.226:5000/api/feedback', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, message })
@@ -45,7 +45,7 @@
         }
 
         async function loadFeedback() {
-            const res = await fetch('/api/feedback');
+            const res = await fetch('http://3.110.90.226:5000/api/feedback');
             const feedbacks = await res.json();
             const list = document.getElementById('feedback-list');
             list.innerHTML = '';
